@@ -47,7 +47,7 @@ if menu == "My Profile":
     varsity = "University of Limpopo"
     
     st.title("Welcome to My Research Page")
-    year = st.slider("Choose current year:",2010,2030)
+    year = st.slider("Choose current year:",2015,2030)
     st.header(f"Author: {first_name} {last_name}")
     st.write(f"Study level: {level}")
     st.write(f"Institution: {varsity}")
@@ -98,4 +98,5 @@ elif menu == "Contact":
     st.image("https://img.freepik.com/premium-photo/view-professional-handshake-business-people_23-2150917018.jpg")
     
     
+
     
