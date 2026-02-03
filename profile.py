@@ -81,10 +81,12 @@ elif menu == "Activity":
     if activities == "Mentoring":
         st.title("Mentoring Activities")
         st.dataframe(Assistant_data)
+        st.image("https://www.the-rheumatologist.org/wp-content/uploads/2020/02/mentoringgraphic.jpg")
         
     elif activities == "Volunteering":
         st.title("Volunteering Activities")
         st.dataframe(Volunteer_data)
+        st.image("https://www.greenqueen.com.hk/wp-content/uploads/2020/12/Veganic-Farming.png")
         
     else:
         st.write("404")
@@ -100,3 +102,4 @@ elif menu == "Contact":
     
 
     
+
